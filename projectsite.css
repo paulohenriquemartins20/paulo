@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+}
+
+
+/*  aqui e a fonte do text eu tbm tirei as margem*/
+
+.iniciotopo {
+    height: 40px;
+    background-color: black;
+}
+
+.topoint {
+    width: 100%;
+    max-width: 1070px;
+    height: 40px;
+    background-color: aqua;
+    margin: auto;
+}
+
+.ladodireito {
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    float: left;
+}
+
+.ladoesquerdo {
+    width: 50%;
+    height: 40px;
+    float: right;
+    background-color: black;
+}
+
+.ladodireito li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ladodireito li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 6px;
+    font-size: 17px;
+    border: 2px solid red;
+}
+
+.ladodireito ol {
+    margin-top: 9px;
+    text-align: left;
+}
+
+.topoinicio2 {
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+.direita {
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+
+.separador1 {
+    height: 30px;
+    background-color: papayawhip;
+    margin-top: 60px;
+}
+
+.modasfeminina {
+    height: 30px;
+    width: 60%;
+    margin: auto;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.topointem {
+    height: 260px;
+    margin-top: 1px;
+}
+
+.intmeio {
+    width: 100%;
+    max-width: 1040px;
+    height: 240px;
+    margin: auto;
+}
+
+.produto1 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto2 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto3 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto4 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto5 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto1 #m {
+    margin-top: 9px;
+    border-radius: 20px;
+}
+
+.produto1 #m2 {
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.produto1 #m2 a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+/* parti dois do feminino*/
+
+.continuarfem {
+    height: 260px;
+    margin-top: 1px;
+}
+
+.fem2 {
+    width: 100%;
+    max-width: 1040px;
+    height: 240px;
+    margin: auto;
+}
+
+.produto6 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto7 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto8 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto9 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}
+
+.produto10 {
+    width: 180px;
+    height: 239px;
+    background-color: #666;
+    float: left;
+    margin-left: 10px;
+}

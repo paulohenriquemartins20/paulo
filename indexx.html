@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>vendas do povo</title>
+    <link href="projectsite.css" rel="stylesheet" />
+    <meta id="viewport" name="viewport" content="width=width-device,user-scalable=no" />
+</head>
+
+<body>
+
+
+    <div class="iniciotopo">
+        <div class="topoint">
+
+            <div class="ladoesquerdo"></div>
+            <div class="ladodireito">
+                <ol>
+                    <li><a href="./">Contato</a></li>
+                    <li><a href="./">Endereço</a></li>
+
+                </ol>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="topoinicio2">
+        <div class="esquerda"></div>
+        <div class="direita"></div>
+    </div>
+    <div class="separador1">
+        <div class="modasfeminina">
+            <h1>PRODUTOS VARIADOS</h1>
+        </div>
+    </div>
+    <div class="topointem">
+        <div class="intmeio">
+            <div class="produto1"><img src="tt.jpg" width="180px" height="100px" id="txt" />
+                <div>Proxima imagem:</div>
+                <input type="radio" value="radio1" name="radio" onclick="a(2)" />
+                <input type="radio" value="radio2" name="radio" onclick="a(1)" />
+                <input type="radio" value="radio3" name="radio" />
+                <div class="valor1">R$ 200</div>
+
+                <div id="m2" width="100px" height="30px" id="m2"><a href="https://web.whatsapp.com/send?phone=5534997115603" target="_brank">COMPRA</a></div>
+                <input type="submit" value="Sobre o produto" width="100px" height="30px" id="m" onclick="fala(10)" />
+
+            </div>
+            <div class="produto2">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto3">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto4">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto5">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="continuarfem">
+        <div class="fem2">
+            <div class="produto6">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto7">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto8">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto9">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+            <div class="produto10">
+                <img src="tt.jpg" width="180px" height="100px" />
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        let a = function(num) {
+            if (num == 1) {
+                document.getElementById("txt").src = "pp.jpg";
+            }
+            if (num == 2) {
+                document.getElementById("txt").src = "tt.jpg";
+            }
+        }
+        let fala = function(num1 = 10) {
+            console.log(alert("nosso produto tem isso e aquilo"));
+
+        }
+    </script>
+</body>
+
+
+
+
+
+</html>
